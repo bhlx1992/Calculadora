@@ -1,0 +1,66 @@
+
+
+*{
+    margin:0;padding:0;
+}
+
+ body {
+    font-size: 14px;
+    font-family: "Microsoft Yahei";
+    color: rgb(255, 217, 0)
+}
+#container{
+    width:300px;
+    margin:100px auto;
+    background:rgb(54, 53, 53);
+    border:2px solid black;
+    border-radius:5px;
+}
+#container h3{
+    text-align:center;
+    margin-top:5px;
+}
+.text{
+    width:280px;
+    border:1px solid #5e5a5a;
+    height:50px;
+    border-radius:5px;margin:10px;
+    font-size:40px;
+    font-family: Calculator;
+    text-align:right;
+    background:#aac704;
+    margin-bottom: 30px;
+}
+.buttons{
+    margin:5px 0 0 4px;
+    position:relative;
+}
+.button{
+    font-size: 17px;
+    margin-left: 8px;
+    width:60px;
+    height:50px;
+    margin-bottom:8px;
+    border:1px solid rgb(12, 11, 11);
+    border-radius:8px;
+    font-weight:bold;
+    color:#f5f7fa;
+    background:#5f5c5e;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    -ms-border-radius:8px;
+    -o-border-radius:8px;
+}
+.button:hover{
+    background:#9ce90d;
+    color: black;
+   
+}
+.ling{
+    width:145px;
+}
+
+@font-face {
+    font-family: Calculator;
+    src: url('/Calculator.ttf') 
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./main.js"></script>
+   
+    <title>Calculadora</title>
+</head>
+<body>
+  
+    <div id="container">
+		
+	<h3> CASIO</h3>
+    
+		<input type="text" id="text" name="text" class="text" disabled="disabled" value="0">
+        <p></p>
+			<div class="buttons">
+				<input type="button" style="background-color: rgb(233, 191, 2); " value="sin" class="button" id="sin" onclick="func(this)">
+				<input type="button" style="background-color: rgb(233, 191, 2); " value="cos" class="button" id="cos" onclick="func(this)">
+				<input type="button" style="background-color: rgb(233, 191, 2); " value="tan" class="button" id="tan" onclick="func(this)">
+				<input type="button" value="√" class="button" id="√" onclick="func(this)">
+				<input type="button" value="x2" class="button" id="x2" onclick="func(this)">
+				<input type="button" value="x!" class="button" id="x!" onclick="func(this)">
+				<input type="button" value="←" class="button" id="dele" onclick="funback()">
+				<input type="button" value="/" class="button" id="/" onclick="show(this)">
+				<input type="button" value="7" class="button" id="7" onclick="show(this)">
+				<input type="button" value="8" class="button" id="8" onclick="show(this)">
+				<input type="button" value="9" class="button" id="9" onclick="show(this)">
+				<input type="button" value="*" class="button" id="*" onclick="show(this)">
+				<input type="button" value="4" class="button" id="4" onclick="show(this)">
+				<input type="button" value="5" class="button" id="5" onclick="show(this)">
+				<input type="button" value="6" class="button" id="6" onclick="show(this)">
+				<input type="button" value="-" class="button" id="-" onclick="show(this)">
+				<input type="button" value="1" class="button" id="1" onclick="show(this)">
+				<input type="button" value="2" class="button" id="2" onclick="show(this)">
+				<input type="button" value="3" class="button" id="3" onclick="show(this)">
+				<input type="button" value="+" class="button" id="+" onclick="show(this)">
+				<input type="button" value="0" class="button" id="0" onclick="show(this)">
+				<input type="button" value="." class="button" id="." onclick="point()"> 
+				<input type="button" style="background-color: rgb(17, 116, 247);" value="CE" class="button" id="ce" onclick="funclear()">
+				<input type="button" style="background-color: rgb(250, 33, 33);" value="=" class="button" id="=" onclick="getResult()">
+			</div>            
+        </div>
+    </body>
+</html>
