@@ -1,5 +1,7 @@
 
-
+html{
+    background: rgba(0, 0, 0, 0.644);
+}
 *{
     margin:0;padding:0;
 }
@@ -54,7 +56,11 @@
 .button:hover{
     background:#9ce90d;
     color: black;
-   
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
 }
 .ling{
     width:145px;
